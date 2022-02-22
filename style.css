@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.logo{
+    padding-right: 100px;
+    margin-top: 40px;
+}
+.search-box{
+    background: wheat;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    border-radius: 40px;
+    margin-left: 350px;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 30px;
+
+}
+.search-btn{
+    
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.search-txt{
+    border: none;
+    background: none;
+    float: left;
+    font-size: 16px;
+    padding: 0;
+    color: black;
+    transition: 0.45;
+    line-height: 40px;
+    width: 450px;
+
+}
+.sign-in{
+    background: wheat;
+    position: relative;
+    transform: translate(-100%, -100%); 
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 1050px;
+    padding: 10px;
+    width: 7%
+}
+.sign-btn{
+    border: none;
+    background: none;
+    float: center;
+    font-size: 16px;
+    padding: 0;
+    color: black;
+    transition: 0.45;
+    line-height: 40px;
+    width: 450px;
+  
+}
+.sign{
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    line-height: 30px;
+    margin-top: 20px;
+    font-size: large;
+  }
+     #nav-ul li {
+    background: wheat;
+    position: relative;
+    
+    height: 40px;
+    border-radius: 20px;
+    padding: 30px;
+    width: 100%;
+    display: inline;
+    overflow: auto;
+  }
+#nav-ul a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    padding-right: 30px;
+    text-align: center;
+    margin-right: 50px;
+}
+.nav-list li{
+    margin-right: 60px;
+}
+.picture-1{
+    width: 80%;
+    padding-right: 6rem;
+    height: auto;
+    margin: 50px;
+}
+
+.about-main{
+    text-align: justify;
+    margin-left: 5%;
+    padding-right: 10rem;
+}
+.slide-images{
+    display: inline;
+    width: 40%;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 5%;
+    
+}
+.slide-pic h2 {
+    margin-left: 5%;
+    font-weight: bolder;
+}
+.addis{
+    margin-bottom: 15%;
+}
