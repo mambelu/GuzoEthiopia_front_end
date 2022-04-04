@@ -59,7 +59,7 @@ body{
        
    }
 .paragraph{
-    background-image: url("./GuzoEthiopia_front_end/Arbaminch_photo/kkk.jpg");
+    background-color:rgb(26, 85, 26);
     margin:20px 0;
     color:white;
     font-weight: bold;
@@ -161,11 +161,19 @@ font-weight: bolder;
 padding: 5px 5px 5px 0;
 color: #ddd;
 font-family: 'Merienda', cursive;
+list-style:none;
+text-decoration: none;
 }
 .link-area li a i{
     margin-right:10px;
     color:#ddd;
+    list-style:none;
+    text-decoration: none;
 
+}
+.link-area li a{
+    text-decoration: none;
+    color:#ddd;
 }
 .link-area{
 padding:0;
