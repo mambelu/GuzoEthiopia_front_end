@@ -16,3 +16,23 @@ buttons.forEach(button => {
 })
   
 });
+
+const buttonShow = document.querySelector(".showMore");
+const buttonHide  = document.querySelector(".showLess");
+const paragraphOne= document.querySelector(".paragraphOne");
+const paragraphTwo= document.querySelector(".paragraphTwo");
+
+const showMore = () => {
+  paragraphTwo.style.display= "block";
+  buttonShow.style.display = "none";
+}
+const showLess = () => {
+  paragraphTwo.style.display= "none";
+  buttonShow.style.display = "block";
+  buttonShow.style.backgroundColor= "rgba(174, 200, 224, 0.582)";
+
+}
+
+
+buttonShow.addEventListener("click",showMore);
+buttonHide.addEventListener("click", showLess);
